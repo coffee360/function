@@ -1,15 +1,21 @@
 {
-    "name": "function/function",
-    "autoload": {
-        "psr-4": {
-            "Administrator\\Function\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "coffee",
-            "email": "164589895@qq.com"
-        }
-    ],
-    "require": {}
+  "name": "phpclass/phpclass",
+  "description": "phpclass",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Phpclass\\Phpclass\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "coffee",
+      "email": "164589895@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "phpoffice/phpspreadsheet": "^1.16"
+  }
 }
